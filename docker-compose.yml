@@ -4,11 +4,11 @@ services:
     image: grafana/grafana:latest
     container_name: grafana_oem_app
     volumes:
-      - ./grafana_data:/var/lib/grafana
+      - ./plugins:/var/lib/grafana/plugins
     user: "0"
     environment:
-      - GF_SECURITY_ADMIN_USER="admin"
-      - GF_SECURITY_ADMIN_PASSWORD="Welcome1"
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=Welcome1
       - GF_INSTALL_PLUGINS=/var/lib/grafana/plugins/oracle-emcc-app-2.0.0.zip;oracle-emcc-app
     restart: unless-stopped
     ports:
