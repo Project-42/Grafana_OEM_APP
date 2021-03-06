@@ -2,7 +2,7 @@ version: '3.4'
 services:
   grafana:
     image: grafana/grafana:latest
-    container_name: grafana_oem
+    container_name: grafana_oem_app
     volumes:
       - ./grafana_data:/var/lib/grafana
     user: "0"
