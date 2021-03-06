@@ -3,6 +3,7 @@
 .vscode/
 .idea/
 grafana_data/*.db
+grafana_data/plugins/oracle-emcc-app-2.0.0.zip
 prometheus_data/*
 *.bk
 
