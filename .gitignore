@@ -1,0 +1,8 @@
+*DS_Store
+.vs/
+.vscode/
+.idea/
+grafana_data/*.db
+prometheus_data/*
+*.bk
+
