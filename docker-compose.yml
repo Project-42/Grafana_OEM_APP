@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana_oem
+    volumes:
+      - ./grafana_data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER="admin"
+      - GF_SECURITY_ADMIN_PASSWORD="Welcome1"
+    restart: unless-stopped
+    ports:
+      - 3000:3000
