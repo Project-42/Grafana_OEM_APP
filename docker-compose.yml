@@ -8,6 +8,7 @@ services:
     environment:
       - GF_SECURITY_ADMIN_USER="admin"
       - GF_SECURITY_ADMIN_PASSWORD="Welcome1"
+      - GF_INSTALL_PLUGINS=/var/lib/grafana/plugins/oracle-emcc-app-2.0.0.zip
     restart: unless-stopped
     ports:
       - 3000:3000
