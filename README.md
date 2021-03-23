@@ -1,7 +1,7 @@
-# Grafana_OEM_APP (WIP)
+# Grafana_OEM_APP
 Docker-Compose playbook for Grafana Installation Example for Oracle Enterprise Manager App
 
-More on this application:
+More on this Application:
 Oracle Post from [Murtaza Husain](https://blogs.oracle.com/author/ac14de17-0dbc-4105-b88d-905b719d4d7b) - [Introducing the brand new Oracle Enterprise Manager App for Grafana](https://blogs.oracle.com/oem/introducing-the-brand-new-grafana-plug-in-for-oracle-enterprise-manager)
 
 I have created this github repository for a docker-compose installation type, but the installation using just docker or any other method is quiet simple as you can see in the [Oracle Enterprise Manager App for Grafana Documentation](https://docs.oracle.com/en/enterprise-manager/cloud-control/enterprise-manager-cloud-control/13.4/emgrf/oracle-enterprise-manager-data-source-grafana.html)
@@ -73,6 +73,6 @@ Starting grafana_oem_app ... done
 Now, login into Grafana you should be able to see the plugin in your grafana plugin list and enable it
 
 
-**Full post will be soon published for this in [Project42 Website](https://project42.site/)**
+**Full post about this project: [Connect your OEM to Grafana using Enterprise Manager App for Grafana](https://project42.site/connect-your-oem-to-grafana-using-enterprise-manager-app-for-grafana/)**
 
 
